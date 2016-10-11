@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Alarm Clock</title>
   </head>
   <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="solution"></ul>
+    <div class="container">
+      <h1 id="current_time">Error: Could not display time.</h1>
+      <form id="setAlarm">
+        <div class="form-group">
+          <label for="alarmInput">Set an Alarm: </label>
+          <input id="alarmInput" name="alarmInput" type="time" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Set</button>
+      </form>
+    </div>
   </body>
 </html>
