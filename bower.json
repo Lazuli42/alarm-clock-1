@@ -1,0 +1,23 @@
+{
+  "name": "alarm-clock",
+  "description": "practicing Node.js via Bower, npm, and gulp.",
+  "main": "index.js",
+  "authors": [
+    "Anand Angalig and Zach Baum"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/anandangalig/alarm-clock",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.15.1"
+  }
+}
